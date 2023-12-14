@@ -1,0 +1,29 @@
+
+
+
+main {
+    width: 80vw;
+    margin: 20px 10vw;
+    border: 3px solid $colorw;
+    background-color: $colorbl;
+    display: flex;
+    flex-flow: column nowrap;
+
+        .sbl {
+            width: 80%;
+            margin: 0 10%;
+            background-color: $colorb;
+            height: 100px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .sgr {
+            width: 80%;
+            margin: 0 10%;
+            background-color: $colorg;
+            height: 100px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+}

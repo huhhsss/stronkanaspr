@@ -1,0 +1,16 @@
+header {
+    width: 80vw;
+    margin: 30px 10vw;
+    background-color: $colorbl;
+    border: $colorr 3px solid;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: $colorr;
+            margin: 20px 0;
+        }
+}
